@@ -1,0 +1,26 @@
+{
+  "browser": {
+    "headless": false,
+    "timeout": 30000,
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    }
+  },
+  "ai": {
+    "provider": "openai",
+    "api_key": "",
+    "model": "gpt-4-vision-preview"
+  },
+  "automation": {
+    "human_delays": true,
+    "screenshot_on_error": true
+  },
+  "profiles": {
+    "count": 30
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "logs/automation.log"
+  }
+}
